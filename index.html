@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode & Animations</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+    <!-- Loading Spinner -->
+    <div class="loading-spinner" id="spinner"></div>
+
+    <!-- Dark Mode Toggle Button -->
+    <button class="toggle-button" onclick="toggleDarkMode()">🌙</button>
+
+    <!-- Hero Section -->
+    <section class="fade-in scroll-fade">
+        <h1 class="typing-text">Hi, I'm Samuel!</h1>
+        <h2 class="slide-up">A Passionate Web Developer</h2>
+        <a href="#skills" class="button">Explore My Skills</a>
+    </section>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-down">↓</div>
+
+    <!-- Skills Section with Hover Effects -->
+    <section class="fade-in scroll-fade" id="skills">
+        <h2>My Skills</h2>
+        <div class="skills">
+            <div class="skill card"><img src="html-icon.png" alt="HTML"></div>
+            <div class="skill card"><img src="css-icon.png" alt="CSS"></div>
+            <div class="skill card"><img src="js-icon.png" alt="JavaScript"></div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section (Zoom-in Images) -->
+    <section class="scroll-fade">
+        <h2>My Work</h2>
+        <img src="project1.jpg" alt="Project 1" class="zoom-in">
+        <img src="project2.jpg" alt="Project 2" class="zoom-in">
+    </section>
+
+    <script src="JavaScript/script.js"></script>
+</body>
+</html>
